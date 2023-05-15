@@ -385,6 +385,8 @@ curl -XPOST -D- 'http://localhost:9200/_security/user/elastic/_password' \
 
 ### How to add plugins
 
+  https://phoenixnap.com/kb/elk-stack-docker#ftoc-heading-4
+
 To add plugins to any ELK component you have to:
 
 1. Add a `RUN` statement to the corresponding `Dockerfile` (eg. `RUN logstash-plugin install logstash-filter-json`)
